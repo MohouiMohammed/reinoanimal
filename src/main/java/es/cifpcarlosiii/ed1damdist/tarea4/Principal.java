@@ -1,20 +1,23 @@
 package es.cifpcarlosiii.ed1damdist.tarea4;
 
+/**
+ * Clase principal del programa.
+ * Aquí se crean objetos y se prueban las clases del reino animal.
+ */
 public class Principal {
 
     public static void main(String[] args) {
 
-/*
-Esquema de clases de reino-animal        
-                  Animal
-                    |
-                    |
-                Mamifero
-                /       \
-               /         \        
-          Perro          Gato
-*/
-
+        /*
+        Esquema de clases de reino-animal
+                          Animal
+                            |
+                            |
+                        Mamifero
+                        /       \
+                       /         \
+                  Perro          Gato
+        */
 
         Animal animal = new Animal("Leon");
 
@@ -53,6 +56,5 @@ Esquema de clases de reino-animal
                 anigato.maullar();
             }
         }
-
     }
 }
